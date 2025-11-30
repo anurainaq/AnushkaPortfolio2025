@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background: white;
+}
+
+
+.bg-stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        90deg,
+        #ffe6ea 0px,
+        #ffe6ea 80px,
+        white 80px,
+        white 120px
+    );
+    z-index: -1;
+}
+
+
+/* NAVBAR */
+.brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #00007A;
+}
+
+.nav-link-small {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #444;
+}
+
+.contact-link {
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+}
+
+/* MAIN TITLE */
+.title-heading {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #00007A;
+}
+
+/* DESCRIPTION TEXT */
+.description {
+    font-size: 12px;
+    text-align: left;
+}
+
+.button {
+    border: 2px solid #00007A;
+    padding: 6px 20px;
+    background: white;
+    color: #00007A;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 0;
+    border-color: #00007A;
+}
+
+

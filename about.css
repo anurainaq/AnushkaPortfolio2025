@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+}
+
+/* NAV */
+.brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #00007A;
+    line-height: 1.1;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #555;
+    font-family: "Courier New", monospace;
+    letter-spacing: 1px;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+.contact-link {
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+
+/* LEFT PANEL */
+.profile-img {
+    width: 100%;
+    height: auto;
+}
+
+.intro-text {
+    font-size: 15px;
+    line-height: 1.55;
+    margin-top: 15px;
+}
+
+/* TITLES */
+.section-title {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* DOTTED CARD */
+.card-dotted {
+    border: 3px dotted #00007A;
+    border-radius: 20px;
+}
+
+.label {
+    font-size: 13px;
+    margin-bottom: -5px;
+}
+
+.value {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #00007A;
+}
+
+/* BLUE CARDS */
+.card-blue {
+    background: #0B008C;
+    color: white;
+    border-radius: 25px;
+}
+
+.skill-list {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* SOFTWARE GRID */
+.software-card img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.software-grid div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.software-grid span {
+    font-size: 16px;
+}

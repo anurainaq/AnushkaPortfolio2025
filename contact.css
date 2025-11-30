@@ -1,0 +1,111 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    margin: 0;
+}
+
+/* NAVBAR */
+.brand {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0A0A9F;
+}
+
+.menu-link {
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+.square-link {
+    font-family: "Courier New", monospace;
+    letter-spacing: 1px;
+}
+
+.contact-link {
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.arrow {
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+/* MAIN CONTENT */
+.profile-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.intro-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* TWO COLUMN LAYOUT */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.left-side {
+    width: 48%;
+}
+
+.right-side {
+    width: 48%;
+}
+
+/* DOTTED ACADEMIC CARD */
+.card-dotted {
+    border: 2px dotted #000;
+    border-radius: 20px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-size: 14px;
+    color: #444;
+    margin: 0;
+}
+
+.value {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+/* BLUE BOX */
+.blue-box {
+    background-color: #0A008A;
+    padding: 35px;
+    border-radius: 25px;
+    color: white;
+}
+
+.blue-box h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.blue-box ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
